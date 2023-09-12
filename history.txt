@@ -1,0 +1,231 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  git --version
+    3  git config --global use.name "Jeffry Troll"\n
+    4  git config --global user.email "jeffrytroll98@gmail.com"
+    5  git config --global core.editor "code --wait"
+    6  git config --global init.defaultBrach main
+   26  git config --list
+   33  mkdir git_practice
+   36  git status
+   37  git_pracrie % git status
+   38  git init
+   39  git init5 git status
+   42  git add file_1.txt
+   43  git_practice % git commit -m 'create'
+   45  cd git_practice
+   48  git add file_1.txt
+   49  git_practice % git add file_1.txt
+   50  git add file_1.txt
+   52  git init
+   57  git add file_1.txt file_2.txt
+   60  git status
+   61  git commit -m 'create new files'
+   62  git status
+   63  git log
+   64  git add file_1.txt
+   65  git commmit -m 'step 4'
+   66  git commit -m 'step 4'
+   67  git status
+   68  git commit file_2.txt
+   69  git commit -m 'step 5'
+   70  git log
+   71  git add file_2.txt
+   72  git commit -m 'step 5'
+   73  git log
+   75  git add Readme.md
+   76  git commit -m 'Adding Readme'
+   77  git log
+   79  nano .gitignore
+   81  nano .gitignore
+   84  git add .gitignore
+   85  git commit -m 'Adding gitignore'
+   86  git status
+   91  git status
+   94  git status
+   95  git branch features
+   96  git checkout features
+   97  git head
+   98  git log
+  106  cd git_practice
+  108  git checkout features
+  109  git status
+  110  git log
+  112  git add new_features.txt
+  113  git commit -m 'add empty file'
+  115  git commit -m "adding text"
+  117  git checkout main
+  119  git status
+  120  git log
+  122  git commit -m 'more changes'
+  123  git checkout main
+  124  git merge features
+  126  git status
+  127  git checkout features
+  128  git commit
+  129  git add new_features.txt
+  130  git commit
+  131  git commit -m
+  132  git commit -m 'something'
+  133  git status
+  134  git add pit-keys.txt
+  135  git status
+  136  git merge main
+  137  git status
+  138  git add file_1.txt
+  140  git status
+  141  git add pi-keys.txt
+  142  git status
+  143  git commit -m
+  144  git commit -m 'something else'
+  146  git status
+  147  git checkout main
+  148  git merge features
+  149  git log
+  151  git add new_features.txt
+  152  git commit -m 'new features'
+  153  git checkout features
+  155  git add new_features.txt
+  156  git commit new_features.txt
+  157  git commit -m 'new features on features'
+  158  git checkout main
+  159  git merge features
+  160  git merge features
+  161  git checkout features
+  163  git rm new_features.txt
+  164  git merge features
+  165  git commit -m 'conflict'
+  166  git merge features
+  167  git branch -d features\n
+  168  git remote add origin git@github.com:JT98CH/git-practice-JT98CH.git
+  169  git push -u origin main
+  170  gitlog.txt
+  171  it log --oneline > gitlog.txt
+  172  git log --oneline > gitlog.txt
+  173   history 0 | grep git > history.txt
+  174  git add gitlog.txt
+  175  git add history.txt
+  176  git commit -m 'final step'
+  177   history 0 | grep git > history.txt
+  179  git push -u origin main
+  191  git init
+  192  git remote add origin git@github.com:JT98CH/my-blog.git
+  193  git branch -M main
+  194  git push -u origin main
+  195  git remote add origin git@github.com:JT98CH/my-blog.git\ngit branch -M main\ngit push -u origin main
+  197  git status
+  198  git add
+  199  git add .
+  200  git add commit -m 'Everything'
+  201  git remote add origin git@github.com:JT98CH/my-blog.git
+  202  git push -u origin main
+  203  git push
+  204  git push --set-upstream origin main
+  205  git status
+  222  mkdir git_practice
+  223  cd git_practice
+  225  git init
+  226  git status
+  229  git status
+  230  git add file_1.txt
+  231  git add file_2.txt
+  232  git commit -m 'Create new files'
+  233  git status
+  234  git log
+  237  git add file_1.txt
+  239  git commit -m 'file 1'
+  240  git status
+  241  git add file_2.txt
+  242  git commit -m 'file 2'
+  243  git status
+  244  git log
+  247  git add Readme.md
+  248  git commit -m 'Readme added'
+  249  git status
+  250  git log
+  251  toutch .gitignore
+  252  touch .gitignore
+  253  nano .gitignore
+  254  rm .gitignore
+  256  mkdir .gitignore
+  257  cd .gitignore
+  259  git status
+  260  git status
+  262  git stutus
+  263  git status
+  264  git log
+  265  cd gitignore
+  267  git .gitignore
+  268  cd .gitignore
+  273  git add .gitignore
+  274  git commit -m 'git ignore file'
+  275  git status
+  276  git branch 'features'
+  277  git checkout features
+  278  git log
+  280  git add new_features.txt
+  281  git commit -m 'add empty file'
+  282  git status
+  284  git add new_features.txt
+  285  git commit -m 'new message'
+  286  git status
+  287  git checkout main
+  290  git add file_1.txt
+  291  git commit -m 'new text in file 1'
+  292  git status
+  293  git merge features
+  294  git merge features
+  295  git status
+  296  git commit -m 'new features'
+  297  git merge features
+  298  git log
+  300  git add new_features.txt
+  301  git commit -m 'new text to new features'
+  302  git status
+  303  git checkout features
+  305  git add new_features.txt
+  306  git commit -m 'new text to new features in features'
+  307  git checkout main
+  308  git merge features
+  309  git commit -m 'merging again'
+  311  git commit -m 'merging again'
+  312  git add new_features.txt
+  313  git commit -m 'merging again'
+  314  git merge feature
+  315  git merge features
+  316  git branch -d features
+  317  git remote add origin git@github.com:JT98CH/it-practice-JT98CH.git
+  318  git push -u origin main
+  319  git remote add origin git@github.com:JT98CH/git-practice-JT98CH.git
+  320  git remote add origin git@github.com:JT98CH/git-practice-JT98CH.git
+  321  git remote set-url origin git@github.com:JT98CH/git-practice-JT98CH.git
+  329  git clone https://github.com/JT98CH/git-practice-Hawkety77
+  330  git branch 'feature-JT98CH'
+  332  cd git-practice-Hawkety77
+  333  git branch 'feature-JT98CH'
+  335  git add 'new_file_JT98CH'
+  336  git commit -m 'my own new change'
+  337  git status
+  338  git push origin feature-JT98CH
+  339  git push origin feature-JT98CH
+  340  git remote add origin git@github.com:JT98CH/git-practice-Hawkety77.git
+  341  git status
+  342  git log
+  343  git branch
+  348  git checkout feature-JT98ChH
+  349  git checkout feature-JT98CH
+  352  git add new_file_JT98CH
+  353  git commit -m 'adding a new file by JT98CH'
+  354  git push origin feature-JT98CH
+  355  git
+  356  git push -u origin feature-JT98CH
+  357  git remote add origin git@github.com:JT98CH/git-practice-Hawkety77.git
+  358  git remote
+  359  git remote origin
+  360  git remote
+  361  git remote add origin git@github.com:JT98CH/git-practice-Hawkety77.git
+  362  git remote set-url origin git@github.com:JT98CH/git-practice-Hawkety77.git\n
+  363  git push -u origin feature-JT98CH
+  368  cd git-practice
+  370  cd git-practice
+  371  cd git_practice
+  373  git log --oneline > gitlog.txt

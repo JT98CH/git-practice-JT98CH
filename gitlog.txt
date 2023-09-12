@@ -1,0 +1,12 @@
+1d13672 merging again
+7385617 new text to new features in features
+0be8f3b new text to new features
+feeab61 new features
+c579a81 new text in file 1
+990b096 new message
+0e5ee49 add empty file
+d92986a git ignore file
+c6e78fd Readme added
+6b7c43d file 2
+dac3aa7 file 1
+a20665e Create new files
