@@ -1,3 +1,5 @@
+79df8e3 adding .gitignore
+063f7ed submission
 1d13672 merging again
 7385617 new text to new features in features
 0be8f3b new text to new features

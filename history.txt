@@ -229,3 +229,31 @@
   370  cd git-practice
   371  cd git_practice
   373  git log --oneline > gitlog.txt
+  374   history 0 | grep git > history.txt
+  375  add gitlog.txt
+  376  git add gitlog.txt
+  377  git add history.txt
+  378  git commit -m 'submission'
+  379  git remote set-url origin git@github.com:JT98CH/git-practice-JT98CH.git\n
+  380  git push -u origin main
+  381  mkdir .gitignore
+  454  cd git_practice
+  459  nano .gitignore
+  460  cd .gitignore
+  463  rm -r .gitignore
+  464  touch .gitignore
+  465  nano .gitignore
+  466  git push -u origin main
+  467  git add .gitignore
+  468  git commit -m 'adding .gitignore'
+  469  git push -u origin main
+  470  nano gitlog.txt
+  471  git status
+  472  git branch
+  473  git branch 'features'
+  474  git checkout features
+  475  git chechout main
+  476  git add .
+  477  git commit .
+  478  git commit -m 'adding features'
+  479  git log --oneline > gitlog.txt
