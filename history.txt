@@ -257,3 +257,17 @@
   477  git commit .
   478  git commit -m 'adding features'
   479  git log --oneline > gitlog.txt
+  480  history 0 | grep git > history.txt
+  481  git push -u origin main
+  482  git switch to features
+  483  git switch features
+  484  git switch main
+  485  git branch
+  486  git switch features
+  487  git switch main
+  488  git branch
+  489  git add .
+  490  git commit -m 'adding something'
+  491  git status
+  492  git push -u origin main
+  493  git log --oneline > gitlog.txt
